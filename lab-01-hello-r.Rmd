@@ -93,5 +93,7 @@ datasaurus_dozen %>%
 library(dplyr)
 
 
+ggplot(data = star, mapping = aes(x = x, y = y)) +
++     geom_point()
 
 
