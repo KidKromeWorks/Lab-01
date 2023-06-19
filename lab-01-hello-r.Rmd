@@ -81,6 +81,17 @@ Add code and narrative as needed.
 
 To add R chunks either type out the backticks, curly braces, and the letter `r` or use the Insert chunk button above, green C+.
 
+datasaurus_dozen %>%
+  count(dataset) %>%
+  print(13)
+  
+  datasaurus_dozen %>%
+  count(dataset) %>%
+  print(13)
+  
+
+library(dplyr)
+
 
 
 
